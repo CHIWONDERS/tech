@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(SkyBlue.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    width: 600px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background-color: none;
+    border-radius: 15px;
+}
+
+ul {
+    align-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(41, 90, 239);
+    border-radius: 10px;
+}
+
+label {
+    color: rgb(1, 1, 10);
+    font-size: 12px;
+}
+
+.name {
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.Pass {
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.email {
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.log {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 7px;
+    color: rgb(230, 230, 243);
+    background-color: rgb(33, 70, 183);
+}
